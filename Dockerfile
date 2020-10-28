@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/debian
+FROM debian:10
 
 # Install Nginx.
 RUN \
